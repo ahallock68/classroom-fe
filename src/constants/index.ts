@@ -1,0 +1,17 @@
+export const DEPARTMENTS = [
+  "Mathematics",
+  "Science",
+  "History",
+  "Literature",
+  "Art",
+  "Physical Education",
+  "Computer Science",
+  "Biology",
+  "Chemistry",
+  "Physics",
+];
+
+export const DEPARTMENT_OPTIONS = DEPARTMENTS.map((dept) => ({
+  label: dept,
+  value: dept,
+}));
