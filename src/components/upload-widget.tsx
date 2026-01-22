@@ -45,7 +45,7 @@ function UploadWidget({
           multiple: false,
           folder: "uploads",
           maxFileSize: 5_000_000,
-          clientAllowedFormats: ["png", "jpg", "jpeg"],
+          clientAllowedFormats: ["png", "jpg", "jpeg", "webp"],
         },
         (error, result) => {
           if (!error && result.event === "success") {
